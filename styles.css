@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(10, 25, 50);
+    font-family: Georgia, "Times New Roman", sans-serif;
+    color: rgb(148, 222, 220);
+}
+
+.nav {
+    background-color: rgb(10, 97, 107);
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    font-size: 30px;
+    font-style: italic
+}
