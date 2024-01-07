@@ -1,4 +1,4 @@
-* {
+body {
     background-color: rgb(10, 25, 50);
     font-family: Georgia, "Times New Roman", sans-serif;
     color: rgb(148, 222, 220);
@@ -8,12 +8,45 @@
     background-color: rgb(10, 97, 107);
     padding-top: 5px;
     padding-bottom: 8px;
-    margin-top: 0px;
+    margin: auto;
     text-align: center;
     font-size: 50px;
+    border: 2px solid rgb(148, 222, 220);
+    border-radius: 7px;
+    margin-bottom: 8px;
+
+
 }
 
 li {
     font-size: 30px;
-    font-style: italic
+    font-style: italic;
+    color: rgb(148, 222, 220);
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.button {
+    background-color: rgb(25, 119, 129);
+    margin-right: 60%;
+    text-align: center;
+    padding: 8px 0px;
+    border: 2px solid rgb(148, 222, 220);
+    border-radius: 7px;
+
+}
+
+.button :visited {
+    color: rgb(148, 222, 220);
+
+}
+
+.button :hover {
+    color: rgb(189, 144, 201);
+    /* border: 2px solid rgb(189, 144, 201); */
+
 }
